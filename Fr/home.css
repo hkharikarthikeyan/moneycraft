@@ -1,0 +1,38 @@
+body{
+    background-image:url( 'photo.jpg');
+    background-size: cover;
+}
+h4,p,h3{
+    color: white;
+}
+
+.details{ 
+    border: 2px solid white;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+  margin-left: 100px;
+margin-top: 100px;
+}
+.details1{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+@media screen and (max-width:900px){
+    img{
+        width: 100px;
+    }
+    h3,p{
+        color: black;
+    }
+    .details{
+        margin-left: 30px;
+        margin-top: 50px;
+        width: 250px
+      }
+    }

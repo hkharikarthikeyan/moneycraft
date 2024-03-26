@@ -1,0 +1,24 @@
+.sa{
+color: white;
+    background-color:rgb(255, 118, 65);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: small;
+    margin-right: 5cm;
+}
+.ba{
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 5cm;
+    background-color: rgb(141, 141, 236);
+    padding:10px 20px;
+    border-radius: 10px;
+    font-size: small;
+}
+#chat-box{
+    max-height: 50vh;
+    padding: 1rem;
+    overflow-y:auto;
+    scrollbar-gutter: stable;
+}
